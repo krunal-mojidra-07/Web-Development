@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Your Data Form</h1>
+    <form action="POST">
+        <div>
+            <label for="username">Enter Your username:</label>
+            <input id="username" type="text" name="username" placeholder="Enter your username">
+        </div>
+        <div>
+            <label for="password">Enter Your password:</label>
+            <input id="password" type="text" name="password">
+        </div>
+        <div>
+            <label for="gender">Gender :</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+        <div>
+            <label for="hobby">Hobby :</label>
+            <input type="checkbox" name="hobby" id="cricket">
+            <label for="cricket">Cricket</label>
+            <input type="checkbox" name="hobby" id="football">
+            <label for="football">Football</label>
+            <input type="checkbox" name="hobby" id="chess">
+            <label for="chess">Chess</label>
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <textarea name="address" rows="4" cols="50" id="address"></textarea>
+        </div>
+        <div>
+            <label for="city">City  :</label>
+            <select name="city" id="city">
+                <option value="ahmedabad">Ahmedabad</option>
+                <option value="gandhinagar">Gandhinagar</option>
+                <option value="vadodara">Vadodara</option>
+                <option value="surat">Surat</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
